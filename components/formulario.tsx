@@ -15,7 +15,7 @@ export default function formulario() {
     const [sending, setSendStatus] = useState(false)
     const [submitError,setSubmitError] = useState(false)
     
-    const handleSubmit = async function(e) {
+    const handleSubmit = async function(e:any) {
         e.preventDefault();
         setSendStatus(true);
         setSubmitError(false);
