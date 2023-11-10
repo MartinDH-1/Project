@@ -30,10 +30,7 @@ export default function BenfRenta() {
     const [isOpen4, setIsOpen4] = useState(false);
     const [isOpen5, setIsOpen5] = useState(false);
     const [isOpen6, setIsOpen6] = useState(false);
-
-  useEffect(()=>{
-    scroll((progress)=>{console.log(progress)})
-  })    
+ 
     return (
     <section className={`${Styles.beneficios}`}>
         <motion.div
