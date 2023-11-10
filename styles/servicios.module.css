@@ -1,0 +1,80 @@
+
+.title2{
+    width: 100%;
+    text-align: center;
+    color:#595959;
+    font-size: 40px ;
+    margin-bottom:50px;
+}
+
+.servicios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+.card{
+    width: 50% !important;
+    height: 450px !important;
+    text-align: center;
+}
+
+.card img{
+  
+    width: 70% !important;
+    height: 450px !important;
+    border-radius: 20px;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: static !important;
+    top: 0;
+    left: 0;
+}
+.front {
+    z-index: 2;
+    transition: all 0.3s linear;
+}
+.back {
+    border-radius: 20px;
+    width: 70%;
+    height: 450px;
+    background: rgb(0,88,142);
+    background: radial-gradient(circle, rgba(0,88,142,1) 0%, rgba(0,160,213,1) 100%);
+    left: 90px;
+    padding: 10px;
+    position: absolute !important;
+    transition: all 0.3s linear;
+    color:#fff;
+    transform: rotateY(180deg);
+    line-height: 30px;
+}
+.back li{
+    font-size: 18px;
+    margin:3px;
+    list-style: none;
+}
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+.card:hover .back {
+    transform: rotateY(360deg);
+}
+.btn_section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.btn_section button{
+    font-size: 20px;
+    width: 20%;
+    border-radius: 15px;
+    background-color: #0078c0;
+}

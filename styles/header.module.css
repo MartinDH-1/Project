@@ -1,0 +1,138 @@
+
+/*Inicios del Header redes sociales*/
+.nav_redes{
+    background-color: #0078c0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.nav_redes button{
+    border: 0px;
+    width: 30%  !important;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.redes{
+    display: flex;
+}
+
+.redes img{
+    position: static !important;
+    width: 24px !important;
+    height: 24px !important;
+    margin: 5px;
+}
+
+.nav_redes img[id="mx"]{
+    position: static !important;
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 25px;
+}
+
+.img_redes:hover{
+    transform: scale(1.5);
+    mix-blend-mode: normal;
+    transition: transform .5s;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+    height: 32px;
+}
+
+.img_redes[id="wp"]:hover{
+    background-color: #00ab88;
+}
+.img_redes[id="fb"]:hover{
+    background-color: #3968aa;
+}
+.img_redes[id="ln"]:hover{
+    background-color: #003e75;
+}
+.img_redes[id="yt"]:hover{
+    background-color: #ff0000;
+}
+.img_redes[id="tt"]:hover{
+    background-color: #21c5cb;
+}
+.img_redes[id="ig"]:hover{
+    background-color: #de088e;
+}
+.img_redes[id="tw"]:hover{
+    background-color: #08a1f0;
+}
+
+@media (max-width: 989px) {
+    .nav_redes{
+        flex-direction: column;
+        height: auto;
+    }
+    .redes{
+        order:-1;
+    }
+    .nav_redes button{
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+/*Aqui inicia los estilos del header informacion o logos de las empresas*/
+
+.nav_info{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.nav_info label{
+    font-size: 25px;
+    font-weight: bold;
+    color: #595959;
+}
+.nav_info p{
+    font-size: 13px;
+    color: #595959;
+}
+
+.nav_info img{  
+    position: static !important;
+    width: 130px !important;
+    height: 80px !important;
+    margin: 10px;
+}
+
+@media (max-width: 699px) {
+
+}
+
+
+/*
+Aqui inicia los estilos de la barra de navegacion
+
+*/
+
+
+.nav{
+    background-color: var(--azul) !important;
+    color:#fff !important;
+}
+
+.nav_icon{
+    width: 100% !important;
+    border: 1px solid #fff !important;
+} 
+.nav_icon span{
+    color: #fff !important;
+    
+} 

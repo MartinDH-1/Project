@@ -1,0 +1,84 @@
+.fondo video{
+    width: 100%;
+}
+.fondo_color{
+    width: 100%;
+    background: radial-gradient(circle, rgba(0,160,213,1) 0%, rgba(0,88,142,1) 100%);
+    height: 109vh;
+    opacity: 0.55;
+    position: absolute;
+    top: 175px;
+}
+.renta h3{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 35px;
+    color:#6a6a82;
+}
+.info_renta{
+    display: flex;
+    height: 900px;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: center;
+    flex-direction: row;
+    color:#6a6a82;
+}
+.text_renta{
+    margin:50px;
+    width: 60%;
+}
+.text_renta h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.text_renta p{
+    font-size: 30px;
+}
+.sect_carousel{
+    display: flex;
+    justify-content: space-around
+}
+
+.info_renta video{
+    height: 40vw;
+    border-radius: 20px;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 190px;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.content h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: -3px -2px 7px rgba(255,255,255,0.50);
+   
+}
+.content p{
+    font-size: 40px;
+    margin: 30px 0px;
+    
+}
+.content button{
+    width: 25%;
+    height: 60px;
+    font-size: 20px;
+}
+.content img{
+    position: static !important;
+    width: 70px !important;
+    margin: 20px;
+    height: auto !important;
+}

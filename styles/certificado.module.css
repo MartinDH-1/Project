@@ -1,0 +1,31 @@
+.icon_cert{
+    position: static !important;
+    width: 30% !important;
+    margin-bottom:20px ;
+}
+.certificado{
+    padding: 20px;
+    height: 500px;
+}
+.certificado h2{
+    font-size: 40px;
+    width: 100%;
+    color: #595959;
+    text-align: center;
+}
+.certificados{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+
+}
+.certificados p{
+    text-align: center;
+}
+.isn,.dns{
+width: 50%;
+text-align: center;
+color:#595959;
+font-size: 20px;
+}
