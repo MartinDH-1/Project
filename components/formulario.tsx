@@ -9,12 +9,12 @@ export default function formulario() {
     const [phoneNumber,setPhone] = useState('')
     const [model,setModel] = useState('')
     const [servicio,setService] = useState('Renta')
-    const [hhnumber,setCount] = useState(0)
+    const [hhnumber,setCount] = useState('')
     const [message,setMessage] = useState('')
     const [submitted, setSubmitted] = useState(false)
     const [sending, setSendStatus] = useState(false)
     const [submitError,setSubmitError] = useState(false)
-    
+
     const handleSubmit = async function(e:any) {
         e.preventDefault();
         setSendStatus(true);
